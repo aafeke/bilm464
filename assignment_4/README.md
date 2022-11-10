@@ -10,6 +10,6 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8080
 ```
 ## Screenshots
-![Server log from the host machine SSH bash](assignment_4/img/1.png)
-![/docs directory from an Android device](assignment_4/img/2.jpg)
-![GET /dict?word=param endpoint from an Android device](assignment_4/img/3.jpg)
+![Server log from the host machine SSH bash](img/1.png)
+![/docs directory from an Android device](img/2.jpg)
+![GET /dict?word=param endpoint from an Android device](img/3.jpg)
