@@ -5,7 +5,7 @@ Running a REST API in a virtual environment with the proof of connectivity of th
 ```
 git clone https://github.com/aafeke/bilm464
 cd bilm464/assignment_3
-python3 venv env3 && source env3/bin/activate
+python3 -m venv env3 && source env3/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8080
 ```
